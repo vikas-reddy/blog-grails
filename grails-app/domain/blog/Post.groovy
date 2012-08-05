@@ -16,4 +16,8 @@ class Post {
         title nullable: false
         body nullable: false
     }
+
+    String toString() {
+        return title
+    }
 }

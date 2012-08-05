@@ -15,4 +15,8 @@ class Comment {
     static constraints = {
         body nullable: false
     }
+
+    String toString() {
+        return body
+    }
 }
